@@ -1,0 +1,118 @@
+-image-card{
+background:#fff;
+border:1px solid var(--line);
+border-radius:28px;
+overflow:hidden;
+box-shadow:0 18px 46px rgba(7,27,59,.08);
+}
+.selfcase-image{
+display:block;
+width:100%;
+aspect-ratio:16/9;
+object-fit:cover;
+background:#d9e5f0;
+}
+.selfcase-caption{
+padding:14px 18px;
+border-top:1px solid var(--line);
+color:#5e728b;
+font-size:13px;
+line-height:1.6;
+}
+@media(max-width:800px){
+.selfcase-wrap{
+grid-template-columns:1fr;
+gap:18px;
+}
+.selfcase-content{
+padding:24px;
+}
+.selfcase-content h3{
+font-size:25px;
+}
+}
+.selfcase-route{
+margin-top:20px;
+padding:16px;
+border-radius:18px;
+background:rgba(255,255,255,.06);
+border:1px solid rgba(255,255,255,.10);
+}
+.selfcase-route-title{
+color:#ffffff;
+font-size:13px;
+font-weight:900;
+letter-spacing:.05em;
+margin-bottom:12px;
+}
+.selfcase-route-grid{
+display:grid;
+grid-template-columns:1fr 72px 1fr;
+gap:10px;
+align-items:center;
+}
+.selfcase-route-side{
+display:grid;
+gap:8px;
+}
+.selfcase-route-box{
+padding:10px 12px;
+border-radius:12px;
+background:rgba(255,255,255,.07);
+border:1px solid rgba(255,255,255,.10);
+color:#e6f2ff;
+font-size:12px;
+font-weight:800;
+line-height:1.5;
+}
+.selfcase-route-center{
+min-height:148px;
+border-radius:18px;
+display:grid;
+place-items:center;
+background:linear-gradient(145deg, rgba(17,202,203,.20), rgba(123,92,214,.18));
+border:1px solid rgba(255,255,255,.12);
+text-align:center;
+padding:12px;
+}
+.selfcase-route-center strong{
+display:block;
+color:#fff;
+font-size:16px;
+letter-spacing:.02em;
+margin-bottom:6px;
+}
+.selfcase-route-center span{
+color:#d5e6f7;
+font-size:12px;
+line-height:1.5;
+}
+.selfcase-note{
+margin-top:12px;
+color:#afc3da;
+font-size:12px;
+line-height:1.7;
+}
+@media(max-width:800px){
+.selfcase-route-grid{
+grid-template-columns:1fr;
+}
+.selfcase-route-center{
+min-height:auto;
+order:-1;
+}
+}
+</style></head><body><header class="hero"><span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span><div class="wrap"><div class="brand"><span class="brand-dot"></span> Meta Heroes</div><span class="badge">企業向け｜社内開催型</span><h1><span class="gradient-text">社員向けAIセミナーを、<br>御社内で無料開催。</span></h1><p>
+「AIを導入する」ことからではなく、まず社員の皆様に
+<strong>“自分の仕事でどう使えるか”</strong>を体験いただく機会をご提供します。
+対面・オンラインのどちらにも対応可能です。
+</p><div class="cta-row"><a href="#offer" class="btn btn-primary">無料セミナーの内容を見る</a><a href="#flow" class="btn btn-ghost">開催後の流れを見る</a></div><div class="hero-note">※開催内容・対象人数・実施形式は企業様ごとに調整します。</div></div></header><section><div class="wrap reveal"><h2 class="section-title">こんな状態、ありませんか？</h2><p class="section-lead">AI活用を進めたい企業ほど、「ツール導入」より前に社員ごとの理解・活用差が課題になりやすくなります。</p><div class="problem-list"><div class="problem"><div class="check">✓</div><div><strong>AIに興味はあるが、何から始めればいいか分からない</strong><span>部署や職種ごとの使いどころが見えていない。</span></div></div><div class="problem"><div class="check">✓</div><div><strong>一部の社員しかAIを使えていない</strong><span>活用が個人のスキルに依存している。</span></div></div><div class="problem"><div class="check">✓</div><div><strong>研修を入れる前に、まず社員の反応を見たい</strong><span>いきなり大きな投資判断をしづらい。</span></div></div><div class="problem"><div class="check">✓</div><div><strong>どの業務からAI活用すべきか判断できない</strong><span>課題とAI活用の接続ができていない。</span></div></div></div></div></section><section class="scroll-story" aria-label="AI活用の変化イメージ"><div class="story-shell"><span class="story-kicker">SCROLL STORY</span><h2 class="story-title">社員の仕事が、<br>こう変わるイメージです。</h2><p class="story-lead">
+セミナーでは、AIの機能説明だけでなく「いまの仕事 → AIを使う → 仕事が整理される」という変化を体験できる設計を目指します。
+</p><div class="story-track"><article class="scene-card"><div class="scene-top"><div class="desk"></div><div class="paper p1"></div><div class="paper p2"></div><div class="paper p3"></div><div class="alert">!</div></div><div class="scene-copy"><div class="scene-num">01 BEFORE</div><h3>情報を探す・整理するだけで時間が消える</h3><p>資料、メール、条件、社内情報が分散。まず「探す・まとめる」ことから仕事が始まります。</p></div></article><article class="scene-card"><div class="scene-top"><div class="ai-ring"></div><div class="data-chip c1">情報整理</div><div class="data-chip c2">比較・要約</div><div class="data-chip c3">たたき台作成</div></div><div class="scene-copy"><div class="scene-num">02 EXPERIENCE</div><h3>AIに任せられる部分を、実際に体験する</h3><p>人が判断すべき仕事と、AIに任せられる整理・比較・作成支援を切り分けます。</p></div></article><article class="scene-card"><div class="scene-top"><div class="dashboard-mini"><div class="dash-bar"></div><div class="dash-grid"><div class="metric-box"><div class="metric-line"></div><div class="metric-line short"></div></div><div class="metric-box"><div class="metric-line"></div><div class="metric-line short"></div></div></div><div class="chart-bars"><span></span><span></span><span></span><span></span></div></div><div class="done-badge">整理完了 ✓</div></div><div class="scene-copy"><div class="scene-num">03 AFTER</div><h3>人は「考える・決める」仕事に集中する</h3><p>AI活用そのものではなく、本来時間を使うべき企画・提案・改善へ時間を戻すことがゴールです。</p></div></article></div></div></section><section class="journey"><div class="wrap reveal"><div class="journey-head motion-item slide-up"><span class="story-kicker">IN COMPANY</span><h2 class="section-title" style="margin-top:16px">御社の中に入ると、<br>何が見えるのか。</h2><p class="section-lead" style="margin-bottom:0">無料セミナーを「体験会」で終わらせず、社員の反応から次の改善テーマを見つけます。</p></div><div class="journey-grid"><div class="journey-banner motion-item zoom-in"><h3>体験 → 反応 → 次の打ち手まで、流れで見える。</h3><p>社内でAI活用を体験してもらうことで、次にどの部署・どの業務から進めるべきかを具体化できます。</p><div class="scan-visual" aria-hidden="true"><div class="scan-line"></div><span class="scan-node n1"></span><span class="scan-node n2"></span><span class="scan-node n3"></span><span class="scan-node n4"></span></div></div><div class="journey-cards"><article class="journey-card motion-item slide-left delay-1"><span class="jnum">1</span><h4>まず、社員が触る</h4><p>「AIを知っている」と「自分の仕事で使える」の間にあるギャップを、実際の体験で埋めます。</p><div class="mini-flow"><span>知る</span><i>→</i><span>触る</span><i>→</i><span>仕事に置き換える</span></div></article><article class="journey-card motion-item slide-right delay-2"><span class="jnum">2</span><h4>反応から、社内の現在地を見る</h4><p>参加者アンケートや反応から、AI活用の理解度・使いたい業務・障壁を整理します。</p><div class="mini-flow"><span>理解度</span><span>業務課題</span><span>活用意向</span></div></article><article class="journey-card motion-item slide-left delay-3"><span class="jnum">3</span><h4>次に進める部署・業務を絞る</h4><p>全社一斉導入ありきではなく、効果が出そうな部署・仕事から次の施策を検討できます。</p><div class="mini-flow"><span>部署</span><i>×</i><span>仕事</span><i>×</i><span>優先順位</span></div></article></div></div></div></section><section class="dark" id="flow"><div class="wrap reveal"><h2 class="section-title">無料セミナーで終わらせません。</h2><p class="section-lead">社員の体験を、次の改善判断につなげる設計です。</p><div class="flow"><div class="step"><div class="step-num">1</div><div><h4>事前ヒアリング</h4><p>対象部署・業務・AI利用状況を確認</p></div></div><div class="step"><div class="step-num">2</div><div><h4>無料セミナー</h4><p>実務を起点にAI活用を体験</p></div></div><div class="step"><div class="step-num">3</div><div><h4>参加者アンケート</h4><p>理解度・課題・活用意向を把握</p></div></div><div class="step"><div class="step-num">4</div><div><h4>担当者へ共有</h4><p>社内のAI活用余地を整理</p></div></div><div class="step"><div class="step-num">5</div><div><h4>次の打ち手検討</h4><p>必要に応じて研修・改善施策へ</p></div></div></div></div></section><section><div class="wrap reveal"><h2 class="section-title">“AIの使い方”ではなく、<br>“仕事の変え方”を扱います。</h2><p class="section-lead">職種によって、AIが使える業務は異なります。セミナー内容は企業様の対象部署に合わせて調整します。</p><div class="tabs-shell"><input class="tab-radio" type="radio" name="job-tab" id="tab-sales" checked><input class="tab-radio" type="radio" name="job-tab" id="tab-admin"><input class="tab-radio" type="radio" name="job-tab" id="tab-manager"><div class="tabs" role="tablist" aria-label="職種別AI活用例"><label class="tab" for="tab-sales">営業・企画</label><label class="tab" for="tab-admin">総務・管理</label><label class="tab" for="tab-manager">管理職</label></div><div class="tab-panels"><div class="tab-panel" id="sales-panel"><h3>営業・企画業務での活用イメージ</h3><ul><li>顧客情報・営業条件の整理</li><li>提案内容の企画・比較</li><li>提案書・説明資料の作成支援</li><li>案件情報の要約・確認</li></ul></div><div class="tab-panel" id="admin-panel"><h3>総務・管理業務での活用イメージ</h3><ul><li>社内文書・申請情報の整理</li><li>契約・経理関連情報の確認支援</li><li>社内案内・報告資料の作成</li><li>定型業務の整理・標準化</li></ul></div><div class="tab-panel" id="manager-panel"><h3>管理職・責任者での活用イメージ</h3><ul><li>会議内容・報告内容の整理</li><li>部下から上がる情報の要約・比較</li><li>意思決定材料の整理</li><li>部署内でAIを定着させる考え方</li></ul></div></div></div></div></section><section style="background:#eef3f8"><div class="wrap reveal"><h2 class="section-title">セミナー構成イメージ</h2><p class="section-lead">一方的に聞くだけではなく、実際に触って「自分の仕事に使える」を持ち帰る構成を想定しています。</p><div class="agenda motion-item slide-up"><div class="agenda-time">01</div><div class="agenda-content"><strong>AIの現在地を理解する</strong><span>生成AIで何ができ、何が苦手なのかを実務視点で整理。</span></div><div class="agenda-time">02</div><div class="agenda-content"><strong>自分の仕事に置き換える</strong><span>職種・業務別に、活用しやすい仕事を具体化。</span></div><div class="agenda-time">03</div><div class="agenda-content"><strong>実際にAIを使ってみる</strong><span>情報整理・文章作成・比較・企画などを体験。</span></div><div class="agenda-time">04</div><div class="agenda-content"><strong>自社での次の一歩を考える</strong><span>どの業務から始めるか、何が障壁になるかを確認。</span></div></div></div></section><section><div class="wrap reveal"><div class="result-box motion-item zoom-in"><h3>企業担当者様にも、持ち帰りがあります。</h3><p>
+参加者の反応やアンケートをもとに、社内でどのようなAI活用余地がありそうかを整理。
+「研修をやるべきか」「どの部署から進めるか」を判断する材料として活用できます。
+</p><div class="result-grid"><div class="result-pill">社員のAI活用状況</div><div class="result-pill">業務上の課題・ニーズ</div><div class="result-pill">次に検討すべきテーマ</div></div></div></div></section><div class="quote reveal">
+AIから考えない。<br><span>「仕事」から考える。</span></div><section class="case-section motion-item slide-up"><div class="wrap reveal"><h2 class="section-title">実際に、こんな企業様へ実施しました。</h2><p class="section-lead">
+「AIには興味がある。でも、自社の仕事で何に使えるのか、どんなメリットがあるのかまではイメージできていない。」
+そんな状態の企業様に向けて、社内AIセミナーを実施した事例です。
+</p><div class="case-wrap"><div class="case-image-card motion-item zoom-in"><img class="case-image" src="data:image/webp;base64,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
