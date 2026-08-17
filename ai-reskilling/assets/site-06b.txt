@@ -1,0 +1,38 @@
+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" alt="Meta Heroesの検索表示回数とクリック数の推移イメージ" /><div class="selfcase-caption">
+LLMOを意識した情報発信の運営により、検索上の表示回数・クリック数の伸びが見られたイメージ。
+その上で、AIエージェントを活用し、CTAまでの導線設計を自動化しています。
+</div></div></div></div></section><section id="offer"><div class="wrap reveal"><div class="offer motion-item slide-up"><h3>まずは、御社内で一度試してみませんか？</h3><p>
+社員向けのAI活用機会として、無料セミナーの実施をご相談いただけます。
+対象部署・参加人数・開催形式・扱う業務テーマは、事前に確認したうえで調整します。
+</p><div class="offer-meta"><span class="meta">法人向け</span><span class="meta">対面対応可</span><span class="meta">オンライン対応可</span><span class="meta">内容カスタマイズ</span></div></div></div></section><section class="cta-section motion-item zoom-in"><div class="wrap reveal"><h2 class="section-title">15分だけ、概要をご説明します。</h2><p>
+「自社でもできそうか」「どの部署向けが良いか」だけでも構いません。
+無料セミナーの実施可否も含め、企業様ごとの状況に合わせてご相談します。
+</p><a class="btn btn-primary" href="#contactCard">相談時に確認する内容</a><div class="small-note">※本ページは提案用。実施条件・内容は個別調整です。</div></div></section><section id="contactCard" style="background:#fff"><div class="wrap reveal"><div class="grid grid-3 motion-item slide-up"><div class="card"><div class="icon">👥</div><h3>対象</h3><p>どの部署・職種の社員に体験してほしいか</p></div><div class="card"><div class="icon">🧩</div><h3>課題</h3><p>いま時間がかかっている業務・属人化している業務</p></div><div class="card"><div class="icon">📅</div><h3>実施</h3><p>希望時期・参加人数・対面／オンライン</p></div></div></div></section><footer>
+株式会社Meta Heroes｜無料社内AIセミナー 提案ページ
+</footer><script>
+(function(){
+// Progressive enhancement:
+// If JavaScript is blocked by an iPhone previewer, all content remains visible.
+try{
+if('IntersectionObserver' in window){
+document.documentElement.classList.add('motion-ready');
+const items = document.querySelectorAll('.reveal, .motion-item');
+const observer = new IntersectionObserver((entries)=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add('visible');
+observer.unobserve(entry.target);
+}
+});
+},{threshold:0.08, rootMargin:'0px 0px -18px 0px'});
+items.forEach(el=>observer.observe(el));
+// Safety net: never leave content hidden.
+setTimeout(()=>{
+items.forEach(el=>el.classList.add('visible'));
+},1800);
+}
+}catch(e){
+document.documentElement.classList.remove('motion-ready');
+}
+})();
+</script></body></html>
