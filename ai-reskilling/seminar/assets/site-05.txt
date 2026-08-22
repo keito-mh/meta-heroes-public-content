@@ -1,0 +1,133 @@
+)}
+    to{opacity:1;transform:scale(1);filter:blur(0)}
+  }
+  .flow-num{
+    animation:flowNumPulse linear both;
+    animation-timeline:view();
+    animation-range:entry 10% cover 27%;
+  }
+  @keyframes flowNumPulse{
+    0%{transform:scale(.55);background:#fff;color:#48627a}
+    60%{
+      transform:scale(1.18);
+      background:linear-gradient(135deg,var(--cyan),var(--blue),var(--purple));
+      color:#fff;
+      box-shadow:0 0 0 10px rgba(49,198,216,.08);
+    }
+    100%{
+      transform:scale(1);
+      background:linear-gradient(135deg,var(--cyan),var(--blue),var(--purple));
+      color:#fff;
+      box-shadow:none;
+    }
+  }
+
+  /* JOB TABS: whole area unfolds upward */
+  .tabs-shell{
+    animation:tabsUnfold linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 38%;
+    transform-origin:top center;
+  }
+  @keyframes tabsUnfold{
+    from{opacity:.1;transform:perspective(700px) rotateX(10deg) translateY(38px);filter:blur(4px)}
+    to{opacity:1;transform:none;filter:blur(0)}
+  }
+
+  /* OVERVIEW: table container appears softly; rows cascade vertically */
+  .overview{
+    animation:overviewFrame linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 30%;
+  }
+  @keyframes overviewFrame{
+    from{opacity:.14;transform:scale(.96);filter:blur(4px)}
+    to{opacity:1;transform:scale(1);filter:blur(0)}
+  }
+  .overview .row{
+    animation:overviewRow linear both;
+    animation-timeline:view();
+    animation-range:entry 5% cover 23%;
+  }
+  @keyframes overviewRow{
+    from{opacity:.06;transform:translateY(22px);clip-path:inset(100% 0 0 0)}
+    to{opacity:1;transform:none;clip-path:inset(0)}
+  }
+
+  /* PROCESS: cards build upward like steps; varied rotation */
+  .start-card:nth-child(3n+1){
+    animation:stepBuildLeft linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 34%;
+  }
+  .start-card:nth-child(3n+2){
+    animation:stepBuildCenter linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 34%;
+  }
+  .start-card:nth-child(3n){
+    animation:stepBuildRight linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 34%;
+  }
+  @keyframes stepBuildLeft{
+    from{opacity:.08;transform:translateY(58px) rotate(-3deg) scale(.94)}
+    to{opacity:1;transform:none}
+  }
+  @keyframes stepBuildCenter{
+    from{opacity:.08;transform:translateY(72px) scale(.9)}
+    75%{transform:translateY(-4px) scale(1.02)}
+    to{opacity:1;transform:none}
+  }
+  @keyframes stepBuildRight{
+    from{opacity:.08;transform:translateY(58px) rotate(3deg) scale(.94)}
+    to{opacity:1;transform:none}
+  }
+  .start-card::after{
+    content:"";
+    position:absolute;
+    left:24px;right:24px;bottom:0;height:3px;
+    border-radius:999px;
+    background:linear-gradient(90deg,var(--cyan),var(--purple));
+    transform-origin:left;
+    animation:stepUnderline linear both;
+    animation-timeline:view();
+    animation-range:entry 8% cover 28%;
+  }
+  @keyframes stepUnderline{
+    from{transform:scaleX(0)}
+    to{transform:scaleX(1)}
+  }
+
+  /* TAKEAWAY: two cards separate outward from center */
+  .benefit:nth-child(1){
+    animation:benefitLeft linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 38%;
+  }
+  .benefit:nth-child(2){
+    animation:benefitRight linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 38%;
+  }
+  @keyframes benefitLeft{
+    from{opacity:.08;transform:translateX(60px) scale(.94)}
+    to{opacity:1;transform:none}
+  }
+  @keyframes benefitRight{
+    from{opacity:.08;transform:translateX(-60px) scale(.94)}
+    to{opacity:1;transform:none}
+  }
+
+  /* CASE: one flips/focuses, one scales and rotates */
+  .case:nth-child(1){
+    animation:caseRevealOne linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 42%;
+    transform-origin:left center;
+  }
+  .case:nth-child(2){
+    animation:caseRevealTwo linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 42%;
+    trans
