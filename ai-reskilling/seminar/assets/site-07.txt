@@ -1,0 +1,66 @@
+-progress-bar{
+    animation:none!important;
+    opacity:1!important;
+    transform:none!important;
+    filter:none!important;
+    clip-path:none!important;
+  }
+}
+</style>
+
+<style id="mh-shared-nav-style">
+.mh-site-nav{position:sticky;top:0;z-index:10050;height:64px;display:flex;align-items:center;background:rgba(255,255,255,.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid rgba(19,27,35,.08)}
+.mh-site-nav__inner{width:min(1040px,calc(100% - 32px));margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.mh-site-nav__brand{display:inline-flex;align-items:center;gap:10px;color:#151b22!important;text-decoration:none!important;font:900 15px/1 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Yu Gothic",sans-serif;white-space:nowrap}
+.mh-site-nav__mark{width:28px;height:28px;border-radius:9px;background:linear-gradient(135deg,#32c6d9,#3aa6ea,#6d5bd6);box-shadow:0 8px 20px rgba(58,166,234,.13)}
+.mh-site-nav__menu{display:flex;align-items:center;gap:7px}
+.mh-site-nav__link{min-height:42px;padding:0 16px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;text-decoration:none!important;font:850 13px/1 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Yu Gothic",sans-serif;color:#53606c!important;border:1px solid transparent;-webkit-tap-highlight-color:transparent}
+.mh-site-nav__link:hover{background:#f4f8fa}
+.mh-site-nav__link.is-current{background:#eef8fb;border-color:#d7edf2;color:#247b92!important}
+.mh-site-nav__link.is-primary{background:linear-gradient(90deg,#32c6d9,#3aa6ea,#6d5bd6);color:#fff!important;border-color:transparent}
+@media(max-width:640px){.mh-site-nav{height:58px}.mh-site-nav__inner{width:calc(100% - 20px);gap:8px}.mh-site-nav__brand{font-size:13px}.mh-site-nav__mark{width:23px;height:23px;border-radius:7px}.mh-site-nav__menu{gap:4px}.mh-site-nav__link{min-height:38px;padding:0 11px;font-size:12px}}
+</style>
+</head>
+<body>
+<nav class="mh-site-nav" aria-label="ページナビゲーション">
+  <div class="mh-site-nav__inner">
+    <a class="mh-site-nav__brand" href="https://keito-mh.github.io/meta-heroes-public-content/ai-reskilling/"><span class="mh-site-nav__mark" aria-hidden="true"></span><span>Meta Heroes</span></a>
+    <div class="mh-site-nav__menu">
+      <a class="mh-site-nav__link" href="https://keito-mh.github.io/meta-heroes-public-content/ai-reskilling/">TOP</a>
+      <a class="mh-site-nav__link is-current is-primary" href="https://keito-mh.github.io/meta-heroes-public-content/ai-reskilling/seminar/">セミナー概要</a>
+    </div>
+  </div>
+</nav>
+<div class="scroll-progress" aria-hidden="true"><div class="scroll-progress-bar"></div></div>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><span class="brand-mark"></span>Meta Heroes</div>
+    <div class="hero-grid">
+      <div class="motion">
+        <div class="eyebrow">FREE IN-HOUSE AI SEMINAR</div>
+        <h1>AIを知るだけで終わらない。<br><span class="gradient">自分の仕事でどう使えるか</span>を体験する。</h1>
+        <p>生成AIに興味はあるものの、具体的な活用方法がまだ見えていない企業様向け。御社の業務や対象部署に合わせて内容を調整し、対面・オンラインで実施します。</p>
+        <div class="tags">
+          <span class="tag">法人向け</span><span class="tag">無料</span><span class="tag">対面 / オンライン</span><span class="tag">内容カスタマイズ</span>
+        </div>
+      </div>
+      <div class="hero-visual motion slide-right">
+        <div class="hero-orb"></div>
+        <div class="ai-window">
+          <div class="window-top"><span></span><span></span><span></span></div>
+          <div class="chat">
+            <div class="bubble">営業資料づくりにAIを使うなら、どこから変えられる？</div>
+            <div class="bubble ai">まず「情報整理 → 構成 → 初稿作成」の3工程からAIに任せると、企画と判断に時間を戻せます。<span class="cursor"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="soft">
+  <div class="wrap">
+    <div class="center motion">
+      <div class="eyebrow">PURPOSE</div>
+      <h2 class="section-title">このセミナーで目指すこと</h2>
+      <p class="section-lead">AIの機能説明ではなく、自分たちの仕事にどう
