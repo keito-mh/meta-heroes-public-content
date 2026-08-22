@@ -1,0 +1,78 @@
+活用できるかを理解し、次の一歩を具体化することが目的です。</p>
+    </div>
+    <div class="cards-3">
+      <article class="purpose-card motion slide-left"><div class="num">01</div><h3>AIで何ができるかを知る</h3><p>生成AIの機能ではなく、実務での活用可能性を理解します。</p></article>
+      <article class="purpose-card motion"><div class="num">02</div><h3>自分の仕事に置き換える</h3><p>営業・企画・総務・管理など、普段の業務で使える場面を具体化します。</p></article>
+      <article class="purpose-card motion slide-right"><div class="num">03</div><h3>会社として次の一歩を見つける</h3><p>社員の反応や課題から、次に検討すべきAI活用テーマを整理します。</p></article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="center motion">
+      <div class="eyebrow">FOR WHO</div>
+      <h2 class="section-title">こんな企業様におすすめです</h2>
+    </div>
+    <div class="recommend-grid">
+      <div class="rec motion slide-left"><div class="tick">✓</div><strong>AIには興味があるが、自社で何に使えるか分からない</strong></div>
+      <div class="rec motion slide-right"><div class="tick">✓</div><strong>AIを使う社員と使わない社員の差が大きい</strong></div>
+      <div class="rec motion slide-left"><div class="tick">✓</div><strong>研修導入の前に、まず社員の反応を見たい</strong></div>
+      <div class="rec motion slide-right"><div class="tick">✓</div><strong>DX・AI推進を任されたが、進め方が具体化できていない</strong></div>
+      <div class="rec motion slide-left"><div class="tick">✓</div><strong>自社業務でのAI活用メリットを社員にも理解してほしい</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="wrap">
+    <div class="center motion">
+      <div class="eyebrow">PROGRAM</div>
+      <h2 class="section-title">セミナー内容｜実施の流れ</h2>
+      <p class="section-lead">時間ではなく、体験の順番で設計します。対象部署や業務に合わせて内容は調整可能です。</p>
+    </div>
+    <div class="flow-list">
+      <div class="flow-item motion slide-left"><div class="flow-num">01</div><div class="flow-copy"><h3>AIの現在地を知る</h3><p>生成AIで今何ができるのかを、実務目線で分かりやすく整理します。</p></div></div>
+      <div class="flow-item motion slide-right"><div class="flow-num">02</div><div class="flow-copy"><h3>業務活用事例を見る</h3><p>営業・企画・総務・管理など、実際の仕事に近い活用例を紹介します。</p></div></div>
+      <div class="flow-item motion slide-left"><div class="flow-num">03</div><div class="flow-copy"><h3>実際にAIを使う</h3><p>情報整理・文章作成・比較・企画などを実際に体験します。</p></div></div>
+      <div class="flow-item motion slide-right"><div class="flow-num">04</div><div class="flow-copy"><h3>自分の仕事に置き換える</h3><p>「自分ならどの仕事に使えるか」を考え、具体化します。</p></div></div>
+      <div class="flow-item motion slide-left"><div class="flow-num">05</div><div class="flow-copy"><h3>自社での次の一歩を考える</h3><p>どの部署・業務からAI活用を始めるべきか整理します。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="center motion">
+      <div class="eyebrow">BY ROLE</div>
+      <h2 class="section-title">職種別｜こんなAI活用を体験できます</h2>
+    </div>
+    <div class="tabs-shell motion">
+      <input class="tab-radio" type="radio" name="job" id="sales" checked>
+      <input class="tab-radio" type="radio" name="job" id="admin">
+      <input class="tab-radio" type="radio" name="job" id="manager">
+      <div class="tabs">
+        <label class="tab" for="sales">営業・企画</label>
+        <label class="tab" for="admin">総務・管理</label>
+        <label class="tab" for="manager">管理職</label>
+      </div>
+      <div class="tab-panels">
+        <div class="tab-panel sales"><h3>営業・企画</h3><ul><li>顧客情報整理</li><li>提案内容の企画・比較</li><li>営業資料作成</li><li>情報要約</li><li>アイデア出し</li></ul></div>
+        <div class="tab-panel admin"><h3>総務・管理</h3><ul><li>社内文書</li><li>マニュアル</li><li>情報整理</li><li>報告資料</li><li>定型業務支援</li></ul></div>
+        <div class="tab-panel manager"><h3>管理職</h3><ul><li>会議内容整理</li><li>情報比較</li><li>意思決定支援</li><li>部下への指示整理</li><li>業務改善</li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="wrap">
+    <div class="center motion">
+      <div class="eyebrow">OVERVIEW</div>
+      <h2 class="section-title">開催概要</h2>
+    </div>
+    <dl class="overview motion">
+      <div class="row"><dt>対象</dt><dd>法人・団体</dd></div>
+      <div class="row"><dt>開催日</dt><dd>クライアント様のご都合に合わせて調整します</dd></div>
+      <div class="row"><dt>参加人数</dt><dd>ご相談の上、調整</dd></div>
+     
