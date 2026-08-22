@@ -1,0 +1,139 @@
+form-origin:right center;
+  }
+  @keyframes caseRevealOne{
+    from{opacity:.08;transform:perspective(800px) rotateY(9deg) translateY(34px);filter:blur(5px)}
+    to{opacity:1;transform:none;filter:blur(0)}
+  }
+  @keyframes caseRevealTwo{
+    from{opacity:.08;transform:translateY(46px) rotate(-3deg) scale(.88);filter:blur(5px)}
+    72%{transform:translateY(-4px) rotate(.7deg) scale(1.015)}
+    to{opacity:1;transform:none;filter:blur(0)}
+  }
+  .case-flow > *{
+    animation:caseStep linear both;
+    animation-timeline:view();
+    animation-range:entry 8% cover 28%;
+  }
+  @keyframes caseStep{
+    from{opacity:.08;transform:translateY(18px) scale(.8)}
+    to{opacity:1;transform:none}
+  }
+
+  /* CTA: mask reveal + settle */
+  .cta-box{
+    position:relative;
+    overflow:hidden;
+    animation:ctaCurtain linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 50%;
+  }
+  @keyframes ctaCurtain{
+    from{
+      opacity:.08;
+      transform:translateY(70px) scale(.9);
+      clip-path:inset(48% 8% 48% 8% round 32px);
+    }
+    65%{
+      opacity:1;
+      clip-path:inset(0 0 0 0 round 32px);
+      transform:translateY(-6px) scale(1.012);
+    }
+    to{
+      opacity:1;
+      transform:none;
+      clip-path:inset(0 0 0 0 round 32px);
+    }
+  }
+  .cta-box::before{
+    content:"";
+    position:absolute;
+    width:240px;height:240px;
+    right:-100px;top:-110px;
+    border-radius:50%;
+    background:radial-gradient(circle,rgba(49,198,216,.22),rgba(115,91,224,0) 70%);
+    animation:ctaOrbReveal linear both;
+    animation-timeline:view();
+    animation-range:entry 12% cover 44%;
+  }
+  @keyframes ctaOrbReveal{
+    from{opacity:0;transform:scale(.3)}
+    to{opacity:1;transform:scale(1)}
+  }
+  .cta-box::after{
+    content:"";
+    position:absolute;
+    inset:0 0 auto 0;
+    height:4px;
+    background:linear-gradient(90deg,var(--cyan),var(--blue),var(--purple));
+    transform-origin:left center;
+    animation:ctaLine linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 35%;
+  }
+  @keyframes ctaLine{
+    from{transform:scaleX(0)}
+    to{transform:scaleX(1)}
+  }
+
+  /* Heading marker also animates */
+  .section-title::after{
+    animation:titleLineGrow linear both;
+    animation-timeline:view();
+    animation-range:entry 5% cover 25%;
+  }
+  @keyframes titleLineGrow{
+    from{transform:scaleX(0);opacity:0}
+    to{transform:scaleX(1);opacity:.75}
+  }
+}
+
+/* Mobile-specific animation tuning: still varied, but safer than large perspective moves */
+@media(max-width:820px){
+  .scroll-progress{height:2px}
+
+  @supports (animation-timeline:view()) {
+    .purpose-card:nth-child(3){
+      animation-name:mobileTilt;
+    }
+    @keyframes mobileTilt{
+      from{opacity:.08;transform:translateY(50px) rotate(2deg) scale(.94)}
+      to{opacity:1;transform:none}
+    }
+
+    .benefit:nth-child(1){
+      animation-name:mobileBenefitOne;
+    }
+    .benefit:nth-child(2){
+      animation-name:mobileBenefitTwo;
+    }
+    @keyframes mobileBenefitOne{
+      from{opacity:.08;transform:translateY(54px) scale(.95)}
+      to{opacity:1;transform:none}
+    }
+    @keyframes mobileBenefitTwo{
+      from{opacity:.08;transform:scale(.84);filter:blur(5px)}
+      to{opacity:1;transform:scale(1);filter:blur(0)}
+    }
+
+    .case:nth-child(1){
+      animation-name:mobileCaseOne;
+    }
+    .case:nth-child(2){
+      animation-name:mobileCaseTwo;
+    }
+    @keyframes mobileCaseOne{
+      from{opacity:.08;transform:translateY(55px) scale(.94)}
+      to{opacity:1;transform:none}
+    }
+    @keyframes mobileCaseTwo{
+      from{opacity:.08;transform:scale(.82) rotate(-1.5deg);filter:blur(5px)}
+      to{opacity:1;transform:none;filter:blur(0)}
+    }
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  .ai-window,.hero-orb,.motion,.purpose-card,.rec,.flow-copy,.flow-num,
+  .tabs-shell,.overview,.overview .row,.start-card,.start-card::after,
+  .benefit,.case,.case-flow > *,.cta-box,.cta-box::before,.cta-box::after,
+  .section-title::after,.flow-list::before,.scroll
