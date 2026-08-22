@@ -1,0 +1,130 @@
+om + focus */
+  .hero .motion:first-child{
+    animation:heroCopyReveal linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 38%;
+  }
+  @keyframes heroCopyReveal{
+    from{opacity:.2;transform:translateY(34px) scale(.96);filter:blur(7px)}
+    to{opacity:1;transform:none;filter:blur(0)}
+  }
+
+  /* HERO visual: rotate into place */
+  .hero-visual{
+    animation:heroVisualReveal linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 42%;
+  }
+  @keyframes heroVisualReveal{
+    from{opacity:.18;transform:translateY(54px) rotate(3deg) scale(.93)}
+    to{opacity:1;transform:none}
+  }
+
+  /* PURPOSE: three deliberately different entrances */
+  .purpose-card:nth-child(1){
+    animation:purposeLift linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 35%;
+  }
+  .purpose-card:nth-child(2){
+    animation:purposeZoom linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 38%;
+  }
+  .purpose-card:nth-child(3){
+    animation:purposeTilt linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 35%;
+  }
+  @keyframes purposeLift{
+    from{opacity:.08;transform:translateY(70px);filter:blur(6px)}
+    to{opacity:1;transform:none;filter:blur(0)}
+  }
+  @keyframes purposeZoom{
+    from{opacity:.08;transform:scale(.78);filter:blur(7px)}
+    75%{transform:scale(1.035)}
+    to{opacity:1;transform:scale(1);filter:blur(0)}
+  }
+  @keyframes purposeTilt{
+    from{opacity:.08;transform:translateY(46px) rotate(5deg) scale(.93);filter:blur(5px)}
+    to{opacity:1;transform:none;filter:blur(0)}
+  }
+
+  /* Purpose number pops after card begins */
+  .purpose-card .num{
+    animation:numPop linear both;
+    animation-timeline:view();
+    animation-range:entry 8% cover 30%;
+  }
+  @keyframes numPop{
+    from{transform:scale(.5) rotate(-16deg);opacity:.2}
+    70%{transform:scale(1.14) rotate(3deg)}
+    to{transform:scale(1);opacity:1}
+  }
+
+  /* RECOMMEND: wipe, rise, zoom in a repeating pattern */
+  .rec:nth-child(3n+1){
+    animation:recWipe linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 32%;
+  }
+  .rec:nth-child(3n+2){
+    animation:recRise linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 32%;
+  }
+  .rec:nth-child(3n){
+    animation:recZoom linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 32%;
+  }
+  @keyframes recWipe{
+    from{opacity:.12;clip-path:inset(0 100% 0 0 round 18px);transform:translateY(10px)}
+    to{opacity:1;clip-path:inset(0 0 0 0 round 18px);transform:none}
+  }
+  @keyframes recRise{
+    from{opacity:.1;transform:translateY(48px) scale(.97)}
+    to{opacity:1;transform:none}
+  }
+  @keyframes recZoom{
+    from{opacity:.12;transform:scale(.84)}
+    to{opacity:1;transform:scale(1)}
+  }
+  .rec .tick{
+    animation:tickPop linear both;
+    animation-timeline:view();
+    animation-range:entry 8% cover 24%;
+  }
+  @keyframes tickPop{
+    from{transform:scale(.25) rotate(-28deg)}
+    70%{transform:scale(1.16) rotate(5deg)}
+    to{transform:scale(1) rotate(0)}
+  }
+
+  /* PROGRAM: vertical flow, line draw + alternating card behavior */
+  .flow-list::before{
+    transform-origin:top center;
+    animation:flowLineGrow linear both;
+    animation-timeline:view();
+    animation-range:entry 7% cover 77%;
+  }
+  @keyframes flowLineGrow{
+    from{transform:scaleY(.01);opacity:.15}
+    to{transform:scaleY(1);opacity:.7}
+  }
+  .flow-item:nth-child(odd) .flow-copy{
+    animation:flowCardRise linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 33%;
+  }
+  .flow-item:nth-child(even) .flow-copy{
+    animation:flowCardFocus linear both;
+    animation-timeline:view();
+    animation-range:entry 0% cover 33%;
+  }
+  @keyframes flowCardRise{
+    from{opacity:.08;transform:translateY(58px) scale(.97);filter:blur(5px)}
+    to{opacity:1;transform:none;filter:blur(0)}
+  }
+  @keyframes flowCardFocus{
+    from{opacity:.08;transform:scale(.87);filter:blur(9px
