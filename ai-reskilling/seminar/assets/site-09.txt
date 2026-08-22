@@ -1,0 +1,78 @@
+ <div class="row"><dt>実施形式</dt><dd>対面 / オンライン</dd></div>
+      <div class="row"><dt>費用</dt><dd>無料</dd></div>
+      <div class="row"><dt>対応エリア</dt><dd>ご相談ください</dd></div>
+      <div class="row"><dt>使用ツール</dt><dd>ChatGPT等の生成AI</dd></div>
+      <div class="row"><dt>必要環境</dt><dd>PCまたはスマートフォン、インターネット環境</dd></div>
+      <div class="row"><dt>内容</dt><dd>対象部署・業務・課題に応じてカスタマイズ</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="center motion">
+      <div class="eyebrow">PROCESS</div>
+      <h2 class="section-title">開催までの流れ</h2>
+    </div>
+    <div class="start-grid">
+      <article class="start-card motion slide-left"><small>STEP 01</small><h3>事前ヒアリング</h3><p>対象部署、参加者、AI活用状況、業務課題などを確認します。</p></article>
+      <article class="start-card motion"><small>STEP 02</small><h3>セミナー内容を設計</h3><p>御社の業務や参加者に合わせてテーマ・内容を調整します。</p></article>
+      <article class="start-card motion slide-right"><small>STEP 03</small><h3>開催日・形式を決定</h3><p>クライアント様のご都合に合わせて、日程と形式を調整します。</p></article>
+      <article class="start-card motion slide-left"><small>STEP 04</small><h3>社内AIセミナー実施</h3><p>実務に近いテーマで、AIを体験いただきます。</p></article>
+      <article class="start-card motion"><small>STEP 05</small><h3>参加者アンケート</h3><p>理解度や活用意向、業務上の課題を確認します。</p></article>
+      <article class="start-card motion slide-right"><small>STEP 06</small><h3>結果共有・次の施策検討</h3><p>今後の研修やAI活用の進め方を整理します。</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="wrap">
+    <div class="center motion">
+      <div class="eyebrow">TAKEAWAY</div>
+      <h2 class="section-title">参加後に得られるもの</h2>
+    </div>
+    <div class="benefit-grid">
+      <div class="benefit motion slide-left"><h3>参加社員</h3><ul><li>AIでできることが具体的に分かる</li><li>自分の業務で使える場面をイメージできる</li><li>「まず何から試すか」が分かる</li></ul></div>
+      <div class="benefit motion slide-right"><h3>企業担当者</h3><ul><li>社員のAI理解度が分かる</li><li>AI活用へのニーズ・関心が分かる</li><li>活用余地のある部署・業務が見えてくる</li><li>次の研修・導入判断の材料が得られる</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="center motion">
+      <div class="eyebrow">CASE STUDY</div>
+      <h2 class="section-title">実施・活用事例</h2>
+    </div>
+    <div class="case-grid">
+      <article class="case motion slide-left">
+        <div class="case-label">CASE 01｜企業様事例</div>
+        <h3>AIには興味がある。<br>でも、活用方法とメリットが見えていない。</h3>
+        <p>社内AIセミナーを通じて、自社業務でのAI活用イメージが具体化。その後の研修導入につながりました。</p>
+        <div class="case-flow"><span>AIに興味</span><i>→</i><span>活用を体験</span><i>→</i><span>研修導入</span></div>
+      </article>
+      <article class="case motion slide-right">
+        <div class="case-label">CASE 02｜META HEROES</div>
+        <h3>LLMO × AIエージェントで、<br>認知からCTAまでを再設計。</h3>
+        <p>検索・生成AIで見つけてもらう接点を増やし、AIエージェント活用によってコンテンツからCTAまでの導線設計を自動化しました。</p>
+        <div class="case-flow"><span>認知接点拡大</span><i>→</i><span>AIエージェント活用</span><i>→</i><span>CTA自動選定</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <div class="cta-box motion">
+      <div class="eyebrow">CONTACT</div>
+      <h2>御社なら、どんなAI活用ができるか。<br><span class="gradient">まず一緒に整理しませんか？</span></h2>
+      <p>開催日・参加人数・対象部署・実施内容は、クライアント様のご都合や課題に合わせて調整します。まだ開催を決めていなくても問題ありません。</p>
+      <a href="#" class="btn">無料社内AIセミナーについて相談する</a>
+      <div class="note">対象部署・人数・テーマのご相談だけでも可能です。</div>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
